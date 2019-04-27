@@ -27,7 +27,7 @@ public class AlbumsController {
     @Autowired
     AlbumsService albumsService;
   
-    @GetMapping(path = "/{id}", 
+    @GetMapping( 
             produces = { 
                 MediaType.APPLICATION_JSON_VALUE,
                 MediaType.APPLICATION_XML_VALUE,
